@@ -5,21 +5,15 @@ import {Link} from "react-scroll"
 const Navigation = () => {
     return (
         <NavContainer>
-            <Link to="home">
-            <NavItem numLink="1">Home</NavItem>
-            </Link>
-            <Link to="work" smooth={true}>
-            <NavItem numLink="1">Work</NavItem>
-            </Link>
-            <Link to="testimonials" smooth={true}>
-            <NavItem numLink="1">Testimonials</NavItem>
-            </Link>
-            <Link to="about" smooth={true}>
-            <NavItem numLink="1">About</NavItem>
-            </Link>
-            <Link to="contact" smooth={true}>
-            <NavItem numLink="1">Contact</NavItem>
-            </Link>
+            <NavItem numLink="1" to="home">Home</NavItem>
+            <NavItem numLink="1" to="work">Work</NavItem>
+            <NavItem numLink="1" to="testimonials">Testimonials</NavItem>
+
+            <NavItem numLink="1" to="about">About</NavItem>
+           
+            
+            <NavItem numLink="1" to="contact">Contact</NavItem>
+            
         </NavContainer>
 
 

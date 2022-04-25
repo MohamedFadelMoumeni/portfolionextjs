@@ -9,7 +9,25 @@ const About = () => {
             <Title>About Me.</Title>
             <Content>
                 <LeftSide>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem unde fugiat molestias nostrum in quos voluptas minima soluta qui voluptatem adipisci porro vero sunt tempore sapiente asperiores facere error corporis, sint possimus consequuntur ex nulla ut. Nisi beatae maxime ipsum iste, reiciendis fuga dolorem blanditiis unde minus minima non suscipit!
+                    My name is <strong>Mohamed Fadel Moumeni</strong>, 20 years old software developer who specializes in JavaScript Technologies.
+                    Experience in building complete websites with Backend using CMS & Nodejs & SpringBoot.Having more than three years of experience.
+                    With a diverse set of skills, I take a different approach to each project to find the best way to present it.
+                    If you need my assistance, feel free to discuss any project details with me! 
+                    <br />Main rules : 
+                    <div style={{
+                        display: "flex",
+                        flexDirection:"column",
+                        fontSize: "1.8rem",
+                        marginTop: "1rem"
+                    }}>
+                    <strong>★ Best Quality and Accurate Deadline.</strong>
+                    <strong>★ Good Responsive and Perfect Communication Skills.</strong>
+                    <strong>★ Front End development.</strong>
+                    <strong>★ Back End development.</strong>
+                    <strong>★ Databases.</strong>
+                    </div>
+
+
                 </LeftSide>
               
                 <RightSide>

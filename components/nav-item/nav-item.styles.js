@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const NavItemContainer = styled.a`
+export const NavItemContainer = styled.span`
 margin-left: 3rem;
 color: #000;
 cursor: pointer;

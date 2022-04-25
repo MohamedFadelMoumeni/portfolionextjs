@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
-const Button = ({children, center}) => {
+const Button = ({children, center, ...otherProps}) => {
     return (
-        <Container>
+        <Container {...otherProps}>
             {children}
         </Container>
 
@@ -26,7 +26,7 @@ letter-spacing: 2px;
 box-shadow: 0px 0px 24px -2px rgba(59,232,176,0.36);
 transition: all .9s;
 &:hover{
-    transform: scale(1.1) rotate(2deg);
+    transform: scale(1.1) rotate(1deg);
 
 }
 `;
