@@ -15,16 +15,16 @@ export default function Home() {
       <Header />
       <Hero />
       <Skills />
-      <Element className='work' classID='work'>
+      <Element className='work' classID='work' id='work'>
       <Work />
       </Element>
-      <Element classID='testimonials' className='testimonials'>
+      <Element classID='testimonials' className='testimonials' id="testimonials">
       <Testimonials />
       </Element>
-      <Element className='about' classID='about'>
+      <Element className='about' classID='about' id='about'>
       <About />
       </Element>
-      <Element className="contact">
+      <Element className="contact" id="contact">
       <Contact />
       </Element>
     </ContainerComponent>
