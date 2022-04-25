@@ -5,7 +5,7 @@ import Image from "next/image"
 const Header = () => {
     return (
         <HeaderContainer>
-           <Image src="/assets/logo.svg" width="300px" height="100px"/>
+           <Logo>Mohamed Fadel Moumeni.</Logo>
             <Navigation />
 
         </HeaderContainer>

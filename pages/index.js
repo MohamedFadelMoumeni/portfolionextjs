@@ -6,6 +6,7 @@ import Work from '../components/work/work.component'
 import Testimonials from '../components/testimonials/testimonials.component'
 import About from '../components/about/about.component'
 import Contact from '../components/contact/contact.component'
+import {Element} from "react-scroll"
 
 export default function Home() {
   return (
@@ -17,7 +18,9 @@ export default function Home() {
       <Work />
       <Testimonials />
       <About />
+  
       <Contact />
+   
     </ContainerComponent>
     </>
   )

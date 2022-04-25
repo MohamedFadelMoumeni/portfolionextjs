@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import {BsFacebook, BsGithub, BsTwitter, BsLinkedin} from "react-icons/bs"
 import Illustration from "../illustartion/illustration.component";
 import Typical from 'react-typical'
+import {Link} from "react-scroll"
 
 
 import Image from "next/image";
@@ -13,9 +14,11 @@ const Hero = () => {
             <Illustration />
             <Content>
            <Fade left>
-           <Title><Typical steps={['Hello', 1000, 'Nice!', 500]}  loop={Infinity}/> ipsum dolor sit amet consectetur.</Title>
+           <Title><Typical steps={['Hello', 3000, 'Nice!', 3000]}  loop={Infinity}/> ipsum dolor sit amet consectetur.</Title>
             <Headline>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore.</Headline>
+            <Link to="contact">
             <Button>Contactez nous</Button>
+            </Link>
             <Icons>
                 <BsFacebook size="20px"/>
                 <BsGithub size="20px"/>

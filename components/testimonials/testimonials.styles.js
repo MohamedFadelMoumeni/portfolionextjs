@@ -4,10 +4,7 @@ export const TestimonialsContainer = styled.div`
 width: 100%;
 padding-top: 7rem;
 
-.custom-right-arrow{
-    background: red;
 
-}
 
 `;
 export const Title = styled.h1`

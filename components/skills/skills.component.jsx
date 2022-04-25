@@ -2,7 +2,7 @@ import {SkillsContainer, Title, Directory} from "./skills.styles";
 import SkillsCard from "../skills-card/skills-card.component";
 import {FaReact, FaNodeJs, FaHtml5, FaCss3Alt} from "react-icons/fa";
 import {DiGithubBadge} from "react-icons/di";
-import {SiFirebase} from "react-icons/si"
+import {SiFirebase, SiOwasp, SiDeno} from "react-icons/si"
 import {AiOutlineConsoleSql} from "react-icons/ai"
 import {DiJava} from "react-icons/di"
 
@@ -19,6 +19,8 @@ const Skills = () => {
             <SkillsCard ><SiFirebase size="50px" /></SkillsCard>
             <SkillsCard ><AiOutlineConsoleSql size="50px" /></SkillsCard>
             <SkillsCard ><DiJava size="50px" /></SkillsCard>
+            <SkillsCard ><SiOwasp size="50px" /></SkillsCard>
+            <SkillsCard ><SiDeno size="50px" /></SkillsCard>
             </Directory>
         </SkillsContainer>
     )

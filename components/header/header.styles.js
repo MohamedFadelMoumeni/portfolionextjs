@@ -10,6 +10,8 @@ padding-top: 1.5rem;
 `;
 
 export const Logo = styled.h1`
-color: #000;
+color: #3be8b0;
 font-size: 2rem;
+text-decoration:underline;
+cursor: pointer;
 `;

@@ -18,7 +18,7 @@ p{
     font-size: 2rem;
     text-align:center;
 }
-city{
+span{
     margin-top: 5rem;
     font-size: 1.6rem;
     font-weight: bold;
