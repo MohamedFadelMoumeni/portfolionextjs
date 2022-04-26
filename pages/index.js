@@ -1,12 +1,16 @@
 import Header from '../components/header/header.component'
 import ContainerComponent from '../components/container/container.component'
-import Hero from '../components/hero/hero.component'
-import Skills from '../components/skills/skills.component'
-import Work from '../components/work/work.component'
-import Testimonials from '../components/testimonials/testimonials.component'
-import About from '../components/about/about.component'
-import Contact from '../components/contact/contact.component'
 import {Element} from "react-scroll"
+import dynamic from "next/dynamic";
+
+// Dynamic Imports
+
+const Hero = dynamic(() => import('../components/hero/hero.component'))
+const Skills = dynamic(() => import('../components/skills/skills.component'))
+const Work = dynamic(() => import('../components/work/work.component'))
+const Testimonials = dynamic(() => import('../components/testimonials/testimonials.component'))
+const About = dynamic(() => import('../components/about/about.component'))
+const Contact = dynamic(() => import('../components/contact/contact.component'))
 
 export default function Home() {
   return (
