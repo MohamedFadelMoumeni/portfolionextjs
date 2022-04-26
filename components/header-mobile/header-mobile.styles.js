@@ -52,7 +52,7 @@ export const MenuMobile = styled.div`
 position: absolute;
 right: 0;
 left: 0;
-top: 5%;
+top: 9%;
 height : 300px;
 background: #fff;
 z-index: 2;

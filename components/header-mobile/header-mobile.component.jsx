@@ -9,7 +9,7 @@ const HeaderMobile = () => {
        <>
         <Container>
             {
-                open ? <IoMdClose onClick={() => setOpen(false)} fontSize="30px" /> : <BiMenuAltRight onClick={() => setOpen(true)} fontSize="30px" className="menu-logo"/> 
+                open ? <IoMdClose cursor="pointer" onClick={() => setOpen(false)} fontSize="30px" /> : <BiMenuAltRight onClick={() => setOpen(true)} fontSize="30px" className="menu-logo"/> 
             }
         </Container>
         <MenuMobile open={open}/>

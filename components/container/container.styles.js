@@ -7,7 +7,7 @@ margin: auto;
     width: 100%;
     padding: 0 5rem;
 }
-@media (max-width: 400px){
+@media (max-width: 500px){
     padding: 0 1rem;
 }
 `;
