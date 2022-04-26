@@ -1,12 +1,13 @@
 import {HeaderContainer, Logo} from "./header.styles"
 import Navigation from "../navigation/navigation.component";
-import Image from "next/image"
+import HeaderMobile from "../header-mobile/header-mobile.component";
 
 const Header = () => {
     return (
         <HeaderContainer>
            <Logo>Mohamed Fadel Moumeni.</Logo>
             <Navigation />
+            <HeaderMobile />
 
         </HeaderContainer>
     )
