@@ -32,7 +32,7 @@ const About = () => {
               
                 <RightSide>
                 <Fade right cascade>
-                    <Image src="/assets/me.jpg" width="400px" height="400px"/>
+                    <Image src="/assets/me.jpg" width="400px" height="400px" alt="Mohamed Fadel Moumeni"/>
                     </Fade>
                 </RightSide>
                 

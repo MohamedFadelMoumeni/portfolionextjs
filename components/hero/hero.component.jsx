@@ -51,7 +51,7 @@ I help founders add value to society by crafting software using JavaScript tools
             </Content>
            
                 <HeroImg>
-                <Image src="/assets/hero.png" width="500" height="500"/>
+                <Image src="/assets/hero.png" width="500" height="500" alt="Illustration"/>
                 </HeroImg>
             
         </HeroContainer>

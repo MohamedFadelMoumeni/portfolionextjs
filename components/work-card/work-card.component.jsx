@@ -5,7 +5,7 @@ const WorkCard = ({reverse, img, title, techStack}) => {
     return (
         <Container reverse={reverse}>
             <ImageContainer>
-                <Image src={img} width="600" height="400"/>
+                <Image src={img} width="600" height="400" alt="Mohamed Project"/>
             </ImageContainer>
             <Content >
                 <Brand>{title}</Brand>
