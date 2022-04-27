@@ -24,9 +24,8 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>Mohamed Fadel Moumeni | Fullstack developer.</title>
-          <meta name="description" content="Mohamed Fadel Moumeni ,  a self-taught Full Stack JavaScript Developer, UI/UX Designer,Security Pentester.
-I help founders add value to society by crafting software using JavaScript tools, I love open source and building side projects." />
-        <meta name="keywords" content="Mohamed Fadel Moumeni, Develepement informatique, Software engineer, software developer, developer , javascript" /> 
+          <meta name="description" content="Mohamed Fadel Moumeni ,  a self-taught Full Stack JavaScript Developer, UI/UX Designer,Security Pentester." />
+        <meta name="keywords" content="Mohamed Fadel Moumeni, Develepement informatique, Software engineer, software developer, developer , javascript, mohamed fadel moumeni, moumeni , portfolio, reactjs " /> 
           {this.props.styleTags}
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
