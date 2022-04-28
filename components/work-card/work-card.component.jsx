@@ -1,7 +1,7 @@
 import {Container, ImageContainer, Content, Brand, Description} from "./work-card.styles"
 import Image from "next/image"
 
-const WorkCard = ({reverse, img, title, techStack}) => {
+const WorkCard = ({reverse, img, title, techStack, description}) => {
     return (
         <Container reverse={reverse}>
             <ImageContainer>
@@ -9,7 +9,13 @@ const WorkCard = ({reverse, img, title, techStack}) => {
             </ImageContainer>
             <Content >
                 <Brand>{title}</Brand>
-                <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui animi quia tempora nulla sit neque fuga eos alias recusandae?</Description>
+                <Description>{description}</Description>
+                {techStack.map(tech => (
+                    <div style={{
+                        fontSize: '1.6rem',
+                        marginBottom: ".5rem"
+                    }} key={tech}><strong>- {tech}</strong></div>
+                ))}
             </Content>
 
         </Container>
