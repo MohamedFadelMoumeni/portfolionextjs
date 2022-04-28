@@ -10,7 +10,7 @@ const Work = () => {
             <Title>Previous work.</Title>
             <WorkCard img="/assets/swipe.png" title="SwipInv Agency Website." description="SwipInv a digital marketing agency I built the second version of their website ." techStack={["Html", "TailwindCss", "Wordpress", "Headless"]}/>
             <WorkCard img="/assets/belgique.png" title="Belguim Transfert." description="Belguim Transfert is a transport agency specialized in Airport taxi transfers , I built the entire app from UI to backend using Headless Wordpress " reverse  techStack={["Nextjs", "Styled-components", "Wordpress", "Headless", "Stripe"]}/>
-            <WorkCard img="/assets/ai.png" title="Face , Celebrity , Demographics detection." description="Built three apps for AI based on claraifi api" techStack={["Html", "Vanilla JS"]}/>
+            <WorkCard img="/assets/AI.png" title="Face , Celebrity , Demographics detection." description="Built three apps for AI based on claraifi api" techStack={["Html", "Vanilla JS"]}/>
             <div
             style={{
                 display: "flex",
