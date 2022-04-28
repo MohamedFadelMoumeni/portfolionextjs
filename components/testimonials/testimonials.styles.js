@@ -3,9 +3,6 @@ import styled from "styled-components"
 export const TestimonialsContainer = styled.div`
 width: 100%;
 padding-top: 7rem;
-
-
-
 `;
 export const Title = styled.h1`
 font-size: 4rem;
