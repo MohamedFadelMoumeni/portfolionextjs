@@ -23,11 +23,10 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Mohamed Fadel Moumeni | Fullstack developer.</title>
+          <title>Mohamed Fadel Moumeni | Fullstack developer</title>
           <meta name="description" content="Mohamed Fadel Moumeni ,  a self-taught Full Stack JavaScript Developer, UI/UX Designer,Security Pentester." />
         <meta name="keywords" content="Mohamed Fadel Moumeni, Develepement informatique, Software engineer, software developer, developer , javascript, mohamed fadel moumeni, moumeni , portfolio, reactjs " /> 
         <meta httpEquiv="content-language" content="en" />
-        <meta property="og:title" content="Mohamed Fadel Moumeni | Fullstack developer." />
 <meta property="og:description" content="Mohamed Fadel Moumeni ,  a self-taught Full Stack JavaScript Developer, UI/UX Designer,Security Pentester." />
 <meta property="og:url" content="https://medfadelmoumeni.com" />
 <meta property="og:type" content="website" />
