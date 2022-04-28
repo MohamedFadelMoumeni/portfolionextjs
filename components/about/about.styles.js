@@ -5,6 +5,7 @@ width: 100%;
 padding-top: 7rem;
 
 
+
 `;
 export const Title = styled.h1`
 font-size: 4rem;
@@ -58,4 +59,8 @@ justify-content: flex-end;
     justify-content:center;
 }
 
+`;
+
+export const ImageContainer = styled.div`
+box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .5);
 `;

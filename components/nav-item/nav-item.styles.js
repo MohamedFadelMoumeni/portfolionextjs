@@ -7,6 +7,9 @@ cursor: pointer;
 position: relative;
 font-size: 1.5rem;
 font-weight: 550;
-
+transition: all .4s;
+&:hover{
+    transform: translateY(-.3rem);
+}
 
 `;

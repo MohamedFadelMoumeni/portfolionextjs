@@ -63,3 +63,23 @@ align-items:center;
 font-weight:bold;
 
 `;
+
+const show = keyframes`
+0%{
+    opacity: 0;
+    transform: translate(-50px);
+}
+100%{
+    opacity: 1;
+    transform: translate(0);
+}
+`;
+
+export const NavItem = styled.div`
+width: 100%;
+padding: 1.6rem 0;
+font-size: 1.4rem;
+text-align:center;
+cursor: pointer;
+animation : ${show} 1s ease-in;
+`;

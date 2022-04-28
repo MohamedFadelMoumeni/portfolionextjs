@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {AboutContainer, Title, Content, LeftSide, RightSide} from "./about.styles";
+import {AboutContainer, Title, Content, LeftSide, RightSide, ImageContainer} from "./about.styles";
 import Fade from 'react-reveal/Fade';
 
 
@@ -31,8 +31,10 @@ const About = () => {
                 </LeftSide>
               
                 <RightSide>
-                <Fade right cascade>
-                    <Image src="/assets/me.jpg" width="400px" height="400px" alt="Mohamed Fadel Moumeni"/>
+                <Fade right cascade style={{background: 'transparent'}}>
+
+                    <Image src="/assets/me.jpg" className="img-about" width="400px" height="400px" alt="Mohamed Fadel Moumeni"/>
+    
                     </Fade>
                 </RightSide>
                 
