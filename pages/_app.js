@@ -1,13 +1,12 @@
 import '../styles/globals.css'
 import { ThemeProvider } from 'styled-components'
 import theme from '../theme'
-import Head from 'next/head'
 import Script from 'next/script'
 
 function MyApp({ Component, pageProps }) {
   return (
    <>
-    <Head>
+ 
       <Script
     strategy="lazyOnload"
     src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
@@ -23,7 +22,7 @@ function MyApp({ Component, pageProps }) {
             });
                 `}
   </Script>
-    </Head>
+   
     <ThemeProvider theme={theme}>
   <Component {...pageProps} />
   </ThemeProvider>
