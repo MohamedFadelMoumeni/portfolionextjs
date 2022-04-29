@@ -1,18 +1,24 @@
 import '../styles/globals.css'
 import { ThemeProvider } from 'styled-components'
 import theme from '../theme'
-import ReactGA from 'react-ga';
+import Script from 'next/script'
 
 
-if(typeof window !== "undefined"){
-  ReactGA.initialize('G-PMZSXKPHNH');
-ReactGA.pageview(window.location.pathname + window.location.search);
-}
 
 function MyApp({ Component, pageProps }) {
   return (
    <>
- 
+    <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+          ga('create', 'G-PMZSXKPHNH', 'auto');
+          ga('send', 'pageview');
+        `}
+      </Script>
+      <Script
+        src="https://www.google-analytics.com/analytics.js"
+        strategy="afterInteractive"
+      />
     
    
     <ThemeProvider theme={theme}>
