@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components'
 import theme from '../theme'
 import Script from 'next/script'
 import { useRouter } from 'next/router';
-import { useEffect } from "react"
+import { useEffect } from "reactc"
 
 
 
