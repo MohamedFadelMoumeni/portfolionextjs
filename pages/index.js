@@ -3,6 +3,8 @@ import ContainerComponent from '../components/container/container.component'
 import {Element} from "react-scroll"
 import dynamic from "next/dynamic";
 
+
+
 // Dynamic Imports
 
 const Hero = dynamic(() => import('../components/hero/hero.component'))
@@ -13,6 +15,10 @@ const About = dynamic(() => import('../components/about/about.component'))
 const Contact = dynamic(() => import('../components/contact/contact.component'))
 
 export default function Home() {
+
+
+
+  
   return (
     <>
         <ContainerComponent>
