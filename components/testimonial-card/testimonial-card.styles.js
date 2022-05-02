@@ -13,14 +13,15 @@ padding: 1.5rem 1rem;
 display: flex;
 flex-direction: column;
 align-items:center;
+justify-content:space-between;
 
 p{
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align:center;
 }
 span{
-    margin-top: 5rem;
     font-size: 1.6rem;
     font-weight: bold;
+    margin-bottom:1.5rem;
 }
 `;

@@ -1,9 +1,11 @@
 import { Container } from "./testimonial-card.styles";
 
-const CardTestimonial = () => (
+const CardTestimonial = ({text, author}) => (
     <Container>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum et quaerat ex velit voluptates tenetur optio soluta quibusdam non iste!</p>
-        <span>CEO, Med</span>
+        <p>
+            {text}
+        </p>
+        <span>{author}</span>
     </Container>
 )
 

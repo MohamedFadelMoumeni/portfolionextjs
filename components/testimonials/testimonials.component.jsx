@@ -34,14 +34,10 @@ const Testimonials = () => {
             <Title>Testimonials.</Title>
             <Directory>
                 <Carousel   responsive={responsive}>
-                   <CardTestimonial />
-                   <CardTestimonial />
-                   <CardTestimonial />
-                   <CardTestimonial />
-                   <CardTestimonial />
-                   <CardTestimonial />
-                   <CardTestimonial />
-                   <CardTestimonial />
+                   <CardTestimonial text="I am really, happy for the work. Delivered on time with good quality. I would strongly recommend him for further projects," author="datasciencestudy"/>
+                   <CardTestimonial text="Excellent work , for those who're reading this, please don't hesitate to choose him." author="williamkong1217"/>
+                   <CardTestimonial text="I can recommend. Mohamed est motivé, sérieux et à su développer de nombreuses compétences lui permettant d'avoir une vision globale des systèmes d'information." author="Denis Bastide"/>
+                   <CardTestimonial text="I've enjoyed working with Mohamed on a few projects and I've been amazed by the quality of his work." author="Younes Afares"/>
                 </Carousel>
             </Directory>
         </TestimonialsContainer>
