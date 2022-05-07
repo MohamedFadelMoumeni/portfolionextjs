@@ -1,13 +1,19 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 import { ThemeProvider } from 'styled-components'
-import theme from '../theme'
+import { darkTheme, lightTheme } from '../theme';
 import Script from 'next/script'
 import { useRouter } from 'next/router';
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
+import {ThemeContext } from '../context/themeswitch';
+import { GlobalStyles } from '../styles/globals.styles';
+
 
 
 
 function MyApp({ Component, pageProps }) {
+   
+  const [themeMode, setTheme] = useState('light');
+  const value = {themeMode, setTheme}
 
   const router = useRouter()
   
@@ -27,6 +33,8 @@ function MyApp({ Component, pageProps }) {
   }, [router.events])
   return (
    <>
+
+
     <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -39,10 +47,12 @@ function MyApp({ Component, pageProps }) {
         strategy="afterInteractive"
       />
     
-   
-    <ThemeProvider theme={theme}>
+    <ThemeContext.Provider value={value}>
+    <ThemeProvider theme={themeMode == "light" ? lightTheme : darkTheme}>
+    <GlobalStyles />
   <Component {...pageProps} />
   </ThemeProvider>
+  </ThemeContext.Provider>
    </>
   )
 }

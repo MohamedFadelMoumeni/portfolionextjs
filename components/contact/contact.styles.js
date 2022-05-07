@@ -7,6 +7,7 @@ flex-direction: column;
 align-items:center;
 justify-content:center;
 padding: 4rem 0;
+color: ${props => props.theme.colors.primary};
 `;
 
 export const Title = styled.h1`

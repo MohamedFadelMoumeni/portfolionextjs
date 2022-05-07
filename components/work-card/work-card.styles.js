@@ -8,6 +8,7 @@ align-items:center;
 justify-content:space-between;
 height: 400px;
 padding: 1rem;
+color: ${props => props.theme.colors.primary};
 @media (max-width: 778px){
    flex-direction: column;
    height: auto;

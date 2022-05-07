@@ -31,8 +31,9 @@ cursor: pointer;
 @media (min-width: 700px){
     display: none;
 }
-
-
+.icon-togger{
+    color: ${props => props.theme.colors.primary};
+}
 
 
 `;
@@ -52,15 +53,43 @@ export const MenuMobile = styled.div`
 position: absolute;
 right: 0;
 left: 0;
-top: 9%;
-height : 300px;
+top: 11%;
+padding-bottom: 1rem;
 background: #fff;
 z-index: 2;
-animation : ${moveInTop} 1s ease-in;
+animation : ${moveInTop} .7s ease-in;
 ${props => !props.open ? "display: none" : "display: flex" };
 flex-direction: column;
 align-items:center;
 font-weight:bold;
+
+
+.toggler-mobile{
+    width: 80%;
+    border: 0;
+    padding: 1rem 0;
+    background: ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.secondary};
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 2rem;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    &::after {
+       ${props => props.theme.colors.primary == "#000"  ?
+    `
+    content :  " black"
+    `
+    :
+    `
+    content :  " white"
+    `
+    
+
+};
+    }
+}
+
 
 `;
 

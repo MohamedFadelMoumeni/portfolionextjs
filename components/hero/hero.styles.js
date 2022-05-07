@@ -8,6 +8,7 @@ align-items:center;
 justify-content:space-between;
 height: 90vh;
 position: relative;
+color: ${props => props.theme.colors.primary};
 @media (max-width: 778px){
     padding-top: 4rem;
     flex-direction: column;
@@ -42,6 +43,7 @@ position: relative;
 }
 @media (max-width: 778px){
     width: 100%;
+    font-size: 2.5rem;
 }
 `;
 export const Headline = styled.p`

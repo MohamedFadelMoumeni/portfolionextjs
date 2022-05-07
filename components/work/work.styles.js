@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const WorkContainer = styled.div`
 width: 100%;
 padding-top: 7rem;
+color: ${props => props.theme.colors.primary};
 
 `;
 export const Title = styled.h1`

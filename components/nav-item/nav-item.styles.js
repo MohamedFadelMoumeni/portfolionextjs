@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const NavItemContainer = styled.span`
 margin-left: 3rem;
-color: #000;
+color:${props => props.theme.colors.primary};
 cursor: pointer;
 position: relative;
 font-size: 1.5rem;

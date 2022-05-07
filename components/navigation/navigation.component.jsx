@@ -1,8 +1,10 @@
 import {NavContainer} from "./navigation.styles"
 import NavItem from "../nav-item/nav-item.component";
-import {Link} from "react-scroll"
+import { useContext } from "react";
+import { ThemeContext } from "../../context/themeswitch";
 
 const Navigation = () => {
+    const {setTheme, themeMode} = useContext(ThemeContext)
     return (
         <NavContainer>
             <NavItem numLink="1" to="home">Home</NavItem>
@@ -13,7 +15,15 @@ const Navigation = () => {
            
             
             <NavItem numLink="1" to="contact">Contact</NavItem>
-            
+
+            <button className="toggler" onClick={() => {
+                if(themeMode === "light"){
+                    setTheme("dark")
+                }else{
+                    setTheme("light")
+                }
+            }}>Switch</button>
+ 
         </NavContainer>
 
 

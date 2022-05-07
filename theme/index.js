@@ -1,7 +1,8 @@
-import colors from "./colors";
-
-const theme = {
-    colors
+import {lightColors, darkColors} from "./colors"
+export const lightTheme = {
+    colors: {...lightColors}
 }
 
-export default theme;
+export const darkTheme = {
+    colors : {...darkColors}
+}

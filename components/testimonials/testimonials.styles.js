@@ -9,6 +9,7 @@ font-size: 4rem;
 font-weight: bold;
 letter-spacing: 2px;
 position: relative;
+color: ${props => props.theme.colors.primary};
 &::before{
     content: "";
     padding-right: 20px;
