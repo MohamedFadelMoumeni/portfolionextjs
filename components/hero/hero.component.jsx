@@ -28,7 +28,7 @@ I help founders add value to society by crafting software using JavaScript tools
                 </a>
                 </Link>
 
-                <Link href="https://www.facebook.com/profile.php?id=100019011732806" passHref>
+                <Link href="https://github.com/MohamedFadelMoumeni" passHref>
                 <a target="_blank">
                 <BsGithub size="20px"/>
                 </a>
@@ -51,7 +51,7 @@ I help founders add value to society by crafting software using JavaScript tools
             </Content>
            
                 <HeroImg>
-                <Image src="/assets/hero.png" width="500" height="500" alt="Illustration"/>
+                <Image src="/assets/hero.png" width="500" height="500" alt="Illustration" priority />
                 </HeroImg>
             
         </HeroContainer>

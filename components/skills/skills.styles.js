@@ -3,8 +3,10 @@ import styled from "styled-components"
 export const SkillsContainer = styled.div`
 width: 100%;
 
+
 `;
 export const Title = styled.h1`
+color : ${props => props.theme.colors.primary};
 font-size: 4rem;
 font-weight: bold;
 letter-spacing: 2px;
